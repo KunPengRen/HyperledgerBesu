@@ -1,0 +1,22 @@
+logging="INFO"
+identity="dmv"
+data-path="/opt/besu/data"
+genesis-file="/config/genesis.json"
+node-private-key-file="/opt/besu/keys/key"
+nat-method="DOCKER"
+host-whitelist=["*"]
+bootnodes=["enode://8be283f1550a85b8ed46fb80527acce06b55985377b761bb7701b1b0241343937fc46bc08dd96a26ef20dcc37c6df8c79edf7a2a0e86828cc6ce1e07e5f5a963@127.0.0.1:30303"]
+
+# P2P related
+
+p2p-host="127.0.0.1"
+p2p-port=30306
+
+# RPC related
+
+rpc-http-enabled=false
+rpc-http-host="127.0.0.1"
+rpc-http-port=8548
+rpc-http-api=["ADMIN", "CLIQUE", "ETH", "NET", "TXPOOL", "WEB3"]
+rpc-http-cors-origins=["*"]
+
