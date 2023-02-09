@@ -14,7 +14,7 @@ p2p-port=30304
 
 # RPC related
 
-rpc-http-enabled=false
+rpc-http-enabled=true
 rpc-http-host="127.0.0.1"
 rpc-http-port=8504
 rpc-http-api=["ADMIN", "CLIQUE", "ETH", "NET", "TXPOOL", "WEB3"]
