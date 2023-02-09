@@ -9,13 +9,13 @@ bootnodes=["enode://8be283f1550a85b8ed46fb80527acce06b55985377b761bb7701b1b02413
 
 # P2P related
 
-p2p-host="127.0.0.1"
+p2p-host="0.0.0.0"
 p2p-port=30306
 
 # RPC related
 
 rpc-http-enabled=true
-rpc-http-host="127.0.0.1"
+rpc-http-host="0.0.0.0"
 rpc-http-port=8506
 rpc-http-api=["ADMIN", "CLIQUE", "ETH", "NET", "TXPOOL", "WEB3"]
 rpc-http-cors-origins=["*"]
