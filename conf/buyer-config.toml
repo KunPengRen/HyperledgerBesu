@@ -17,6 +17,7 @@ p2p-port=30304
 rpc-http-enabled=true
 rpc-http-host="0.0.0.0"
 rpc-http-port=8504
+rpc-http-max-active-connections=2000000
 rpc-http-api=["ADMIN", "CLIQUE", "ETH", "NET", "TXPOOL", "WEB3"]
 rpc-http-cors-origins=["*"]
 
